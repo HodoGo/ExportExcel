@@ -1,4 +1,4 @@
-<h2>4 библиотеки для экспорта в Excel C#</h2>
+<h2>4 библиотеки для экспорта в Excel</h2>
 <p>Демонстрация сохранения данных в файл xlsx</p>
 <ul>
   <li><a href="https://github.com/nissl-lab/npoi" target="_blank">NPOI</li>
