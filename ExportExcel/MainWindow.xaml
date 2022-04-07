@@ -1,0 +1,16 @@
+﻿<Window x:Class="ExportExcel.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ExportExcel"
+        mc:Ignorable="d"
+                Title="Export Excel" Height="140" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <StackPanel>
+        <Button x:Name="NPOI_export" Content="NPOI" Click="NPOI_export_Click"/>
+        <Button x:Name="EPPlus_export" Content="EPPlus" Click="EPPlus_export_Click"/>
+        <Button x:Name="ClosedXML_export" Content="ClosedXML" Click="ClosedXML_export_Click"/>
+        <Button x:Name="OleDB_export" Content="OleDB" Click="OleDB_export_ClickAsync"/>
+        <TextBlock x:Name="StatusText" Height="20"/>
+    </StackPanel>
+</Window>
